@@ -1,1 +1,106 @@
+html {
 
+    scroll-behavior: smooth;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.fixed {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: orange;
+    box-shadow: 2px 1px 2px black;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 20px;
+
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 30px;
+
+
+}
+
+nav {
+    text-align: center;
+    font-size: 2em;
+    padding-top: 10px;
+}
+
+nav li {
+
+    display: inline-block;
+
+}
+
+.navbar {
+
+    background-color: rgb(1, 82, 255);
+    height: 100vh;
+}
+
+.aboutpage {
+    background-color: brown;
+    height: 120vh;
+    font-size: 1.7em;
+    padding-top: 10px;
+
+}
+
+.about1 {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+
+}
+
+
+.maps p {
+    margin-right: 200px;
+    
+
+}
+
+
+
+.contact1 {
+    text-align: center;
+    font-size: 2.3em;
+}
+
+.contactpage {
+    height: 120vh;
+    padding-top: 10px;
+
+
+
+}
+
+footer {
+    height: 15vh;
+    background-color: black;
+}
