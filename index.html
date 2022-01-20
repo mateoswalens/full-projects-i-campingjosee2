@@ -23,7 +23,7 @@
   <script src="./js/index.js"> </script>
 
 
-  <section class="navbar">
+  <section class="homepage">
 
 
     <header>
@@ -42,19 +42,30 @@
         </nav>
       </div>
 
-      <div id="home">
+      <div id="home" class="home1">
+
+
+
+
 
 
       </div>
 
-      <div class="image-H">
-        <img src="" alt="">
+      <div class="brush-img">
+        <img src="/home_josee.png" alt="">
+
+      </div>
+
+      <div class="logo-img">
+        <img src="/logo_josee.png" alt="">
 
       </div>
 
     </header>
-
+    
   </section>
+
+  
   <section class="aboutpage">
 
     <main>
@@ -76,31 +87,31 @@
 
   <section class="about2">
     <hr>
- <!-- /// Calendar-start /// -->
-    
-      <br><br><br>
-      <div class="calendar">
-    <div class="header">
-      <a data-action="prev-month" href="javascript:void(0)" title="Previous Month"><i></i></a>
-      <div class="text" data-render="month-year"></div>
-      <a data-action="next-month" href="javascript:void(0)" title="Next Month"><i></i></a>
-    </div>
-    <div class="months" data-flow="left">
-      <div class="month month-a">
-        <div class="render render-a"></div>
-      </div>
-      <div class="month month-b">
-        <div class="render render-b"></div>
-      </div>
-    </div>
-  </div>
-  <script src="./js/index.js">
-      
-      
-      
-      </script>
+    <!-- /// Calendar-start /// -->
 
-<!-- /// Calendar-end /// -->
+    <br><br><br>
+    <div class="calendar">
+      <div class="header">
+        <a data-action="prev-month" href="javascript:void(0)" title="Previous Month"><i></i></a>
+        <div class="text" data-render="month-year"></div>
+        <a data-action="next-month" href="javascript:void(0)" title="Next Month"><i></i></a>
+      </div>
+      <div class="months" data-flow="left">
+        <div class="month month-a">
+          <div class="render render-a"></div>
+        </div>
+        <div class="month month-b">
+          <div class="render render-b"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/index.js">
+
+
+
+    </script>
+
+    <!-- /// Calendar-end /// -->
 
 
 
@@ -115,22 +126,48 @@
   <section class="contactpage">
 
     <div id="contact" class="contact1">
+      
+        <p>Get In <span>Touch</span>!</p>
+      
+      <h1>CONTACT US!</h1>
 
-      <h1>contact</h1>
+
 
     </div>
-      
-        <!-- /// maps /// -->
 
 
 
-      <p class="maps"><iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1755.6042605058992!2d4.371034073882205!3d50.85130514306528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c36349bd6723%3A0x2d2d504d7f1aa1c!2sRue%20de%20la%20Commune%2025%2C%201210%20Saint-Josse-ten-Noode!5e0!3m2!1sfr!2sbe!4v1642627043820!5m2!1sfr!2sbe"
-        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+    <div class="contactbox"></div>
+    <!-- /// maps-start/// -->
 
 
-        
-     
+    <div class="maps">
+      <p><iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1755.6042605058992!2d4.371034073882205!3d50.85130514306528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c36349bd6723%3A0x2d2d504d7f1aa1c!2sRue%20de%20la%20Commune%2025%2C%201210%20Saint-Josse-ten-Noode!5e0!3m2!1sfr!2sbe!4v1642627043820!5m2!1sfr!2sbe"
+          width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+    </div>
+    <!-- /// maps-end /// -->
+
+
+
+
+
+    <!-- /// chatbox-start /// -->
+    <div class="chatbox">
+
+      <form class="contact-form" action="index.html" method="post"></form>
+      <input type="text" class="contact-form-text-email" placeholder="your email..">
+      <input type="email" class="contact-form-text-name" placeholder="your name..">
+      <textarea class="contact-form-text-message" placeholder="your message.."></textarea>
+      <input type="submit" class="contact-form-send" value="send">
+
+    </div>
+
+
+    <!-- /// chatbox-end /// -->
+
+
+
 
 
 
