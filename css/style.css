@@ -206,12 +206,6 @@ span {
 
 
 
-
-
-
-
-
-
 .about2 {
   background-color: #8dd69c;
   height: 100vh;
@@ -226,7 +220,101 @@ span {
 
 
 
+/* /// icones-contact-start /// */
 
+.icones-contact {
+  position: absolute;
+  width: 20%;
+  margin-left: 300px;
+  margin-top: 80px;
+}
+
+
+
+
+
+.icone-email {
+  position: absolute;
+  width: 15%;
+
+}
+
+.icone-adres {
+  position: absolute;
+  width: 15%;
+  margin-left: 180px;
+
+
+
+}
+
+.icone-gsm {
+  position: absolute;
+  width: 15%;
+  margin-left: 320px;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /// icones-contact-end /// */
+
+
+
+
+/* /// gegevens-contact-start /// */
+
+.E-mail {
+
+  margin-left: 250px;
+  margin-top: 141px;
+  position: absolute;
+
+
+}
+
+.adres {
+
+  margin-left: 450px;
+  margin-top: 141px;
+
+  position: absolute;
+
+
+
+
+
+}
+
+
+.gsm {
+
+  margin-left: 600px;
+  margin-top: 140px;
+  position: absolute;
+
+
+
+
+}
+
+/* /// gegevens-contact-end /// */
 
 
 
@@ -323,10 +411,7 @@ span {
 
 }
 
-footer {
-  height: 15vh;
-  background-color: black;
-}
+
 
 
 /* /// chatbox-start /// */
@@ -343,6 +428,15 @@ footer {
   width: 600px;
   padding: 0 10px;
   overflow: hidden;
+}
+
+
+.contact-form:hover {
+  box-shadow: 0 0 10px black;
+
+
+
+
 }
 
 .contact-form-text-email {
@@ -434,10 +528,14 @@ textarea.contact-form-text {
 
 /* /// chatbox-end /// */
 
+/* /// footer-start /// */
 
+footer {
+  height: 15vh;
+  background-color: black;
+}
 
-
-
+/* /// footer-end /// */
 
 
 
