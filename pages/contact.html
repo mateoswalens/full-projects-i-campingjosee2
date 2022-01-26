@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Camping Josée</title>
+
+  <meta charset="utf-8">
+  <meta name="author" content="Mateo Swalens">
+  <meta name="description" content="site waar je huizen kunt bekijken die te koop of te huur staan">
+  <meta name="keywords" content="Makelaarskantoor, De Smet, huizen, appartementen">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="../css/reset.css">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link rel="stylesheet" type="text/css" href="../css/media.css">
+
+  <script src="https://kit.fontawesome.com/ae4c71001f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav>
+
+    <a href="#" onclick="toon();">&#9776;</a>
+    <a href="../index.html">
+      <img src="../img/logo.png" alt="logo makelaarskantoor">
+    </a>
+
+    <ul class="active" id="entiteit">
+
+      <li>
+        <a href="https://gpatsis.wixsite.com/cantinejosee">Cantine Josée</a>
+        <span></span>
+      </li>
+
+      <li>
+        <a class="active" href="/pages/contact.html">Contact</a>
+        <span class="active"></span>
+      </li>
+
+      <li>
+        <a href="/pages/over.html">Over ons</a>
+        <span></span>
+      </li>
+
+      <li>
+        <a href="/pages/activiteiten.html">Activiteiten</a>
+        <span></span>
+      </li>
+
+      <li>
+        <a  href="../index.html">Home</a>
+        <span ></span>
+      </li>
+
+    </ul>
+  </nav>
+
+
+
+  <main>
+    <section id="contact">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.0128740920222!2d4.369622015459023!3d50.84944586641595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c362d135b4cb%3A0x2035dc236c832cf!2sLeuvensesteenweg%2052%2C%201210%20Sint-Joost-ten-Node!5e0!3m2!1snl!2sbe!4v1643228266415!5m2!1snl!2sbe"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  
+        <div>
+          <h1>Contact</h1>
+  
+          <p>Leuvensesteenweg 54 Chau. de Louvain
+            Saint-Josse-ten-Noode, 1210
+            info@campingjosee.be
+            0473 27 19 47</p>
+  
+          <h1>Openingsuren</h1>
+          <p>Ma-woe: 8h30-20h00
+            Do-vr: 8h30-23h00
+            Za-zo: 10h00-17h00</p>
+        </div>
+  
+      </section>
+  </main>
+
+<footer>
+<div></div>
+    <img src="/img/logo-st-joost.png">
+    <img src="/img/logo-ten-noey.png">
+    <img src="/img/logo-n.png">
+    <img src="/img/logo-bib-joske.png">
+    <img src="/img/logo-bredeschool.png">
+
+</footer>
+
+</body>
+
+</html>
+
+
+
+<script>
+  function toon() {
+    var burger = document.getElementById("entiteit");
+    burger.classList.toggle("active");
+  }
+</script>
